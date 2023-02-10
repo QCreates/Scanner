@@ -1,0 +1,44 @@
+body{
+    color: darkslategray;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 4vh;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 3vh;
+    font-weight: 300;
+}
+#center{
+    text-align: center;
+}
+
+p, input{
+    font-size: 2.5vh;
+    font-weight: 200;
+} .sources{
+    font-size: 1.25vw;
+}
+
+.tablink{
+    text-align: center;
+    font-weight: 300;
+}
+a, button{
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: 400;
+    font-size: 2vh;
+} a:hover, button:hover {
+    color: darkslategray;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+button{
+    font-weight: 100;
+    font-size: 3vh;
+}
