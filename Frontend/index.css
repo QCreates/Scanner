@@ -1,0 +1,118 @@
+body{
+    line-height: 2;
+    overflow: hidden;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    margin-top: 10vh;
+    background-color: #d9d9d9;
+}
+
+/* Containers */
+.mainContainer{
+    margin-left: 1vw;
+    position: absolute;
+    width: 98vw;
+    height: 89vh;
+    background-color: #8a8a8a70;
+    border-radius: .5vh;
+    overflow-y: auto;
+}
+
+.credentialContainer{
+    margin-top: 10vh;
+    margin-left: 29vw;
+    position: absolute;
+    width: 40vw;
+    height: 50vh;
+    background-color: #d9d9d9;
+    border-radius: .5vh;
+    overflow-y: auto;
+    text-align: center;
+} .credentialTitle{
+    margin-bottom: 3vh; 
+} .loginInfo{
+    width: 30.5vw;
+    height: 6vh;
+    background-color: #8a8a8a70;
+    border: none;
+    border-radius: .5vh;
+    overflow-y: none;
+    text-align: left;
+}
+
+a{
+    padding-top: 1vh;
+    width: calc(9vw + 2vh);
+    height: 5vh;
+    border-radius: .5vh;
+    background-color: #d9d9d9;
+    border: solid;
+    border-color: #8a8a8a;
+}.homelink:hover, .tablink:hover{
+    background-color: gray;
+}
+
+/* BUTTONS */
+.tablink{
+    top: 2vh;
+    position: absolute;
+} .homelink{
+    position: absolute;
+    top: 2vh;
+    left: 1vw;
+    width: 11vw;
+    padding-left: 3vw;
+    border: none;
+} .centerButton{
+    top: 40vh;
+    left: 15vw;
+    position: absolute;
+    
+} #page1{
+    left: 53vw;
+} #page2{
+    left: 64vw;
+} #page3{
+    left: 75vw;
+} #login{
+    left: 88.6vw;
+    border: solid;
+    background-color: #d9d9d9;
+    border-color: #8a8a8a;
+} #Login{
+    height: 5.6vh;
+    left: 88.85vw;
+    background-color: #8a8a8a;
+    color: white;
+    border: none;
+} #login:hover{
+    background-color: #8a8a8a;
+} #Login:hover{
+    background-color: #8a8a8a;
+}
+
+/* TEXT */
+h1{
+    text-align: center;
+} p{
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+/* Width */
+::-webkit-scrollbar {
+    width: .5vw;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #00000010;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 1vh;
+    background: #99999970;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #696969;
+}  
