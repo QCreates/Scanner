@@ -48,10 +48,9 @@ a{
     background-color: #d9d9d9;
     border: solid;
     border-color: #8a8a8a;
-}.homelink:hover, .tablink:hover{
-    background-color: gray;
+} .tablink:hover{
+    background-color: #8a8a8a;
 }
-
 /* BUTTONS */
 .tablink{
     top: 2vh;
@@ -60,8 +59,8 @@ a{
     position: absolute;
     top: 2vh;
     left: 1vw;
-    width: 11vw;
-    padding-left: 3vw;
+    width: 18vw;
+    padding-left: 2vw;
     border: none;
 } .centerButton{
     top: 40vh;
@@ -69,22 +68,19 @@ a{
     position: absolute;
     
 } #page1{
-    left: 53vw;
+    left: 30vw;
 } #page2{
-    left: 64vw;
+    left: 46vw;
 } #page3{
-    left: 75vw;
+    left: 62vw;
 } #login{
-    left: 88.6vw;
-    border: solid;
+    right: 1vw;
     background-color: #d9d9d9;
-    border-color: #8a8a8a;
 } #Login{
+    right: 1vw;
     height: 5.6vh;
-    left: 88.85vw;
-    background-color: #8a8a8a;
     color: white;
-    border: none;
+    background-color: #8a8a8a;
 } #login:hover{
     background-color: #8a8a8a;
 } #Login:hover{

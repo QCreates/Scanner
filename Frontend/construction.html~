@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Stuff -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Tab Thing -->
+    <link rel="shortcut icon" href="https://i.pinimg.com/236x/01/4e/59/014e59fcdefd0a42af154e35b28cc09b--the-last-avatar-avatar-the-last-airbender.jpg" type="image/png" sizes="96x96">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./fonts.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body onload="JSON()">
+    <div class="buttonContainer" id="cont1">
+      <a href="./index.html" class="homelink" id="homePage">Scanner Website</a>
+    </div>
+    <div class="buttonContainer" id="cont2">
+      <a href="./index.html" class="tablink" id="login">BACK</a>
+    </div>
+    <div class="mainContainer">
+      <div>
+	<h1>Welcome! This page is currently under construction, please come
+	  back another time...
+	</h1>
+      </div>
+    </div>
+  </body>
+  </html>
