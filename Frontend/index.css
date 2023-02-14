@@ -65,8 +65,14 @@ a{
 } .centerButton{
     top: 40vh;
     left: 15vw;
-    position: absolute;
-    
+    position: absolute;   
+} #signUpBtn{
+    top: 78vh;
+    left: 46vw;
+    padding: 0;
+    padding-left: 1vw;
+    height: 4vh;
+    width: 5vw;
 } #page1{
     left: 30vw;
 } #page2{

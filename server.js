@@ -1,13 +1,16 @@
+function 
+
+
 //REST API demo in Node.js
-var express = require('express'); //Require the express framework
+/*var express = require('express');
 var app = express();
-var fs = require('fs'); //Require file system object
+var fs = require('fs'); 
 
 //Endpoint to get a list of users
 app.get('/getUsers', function(req, res){
     fs.readFile(__dirname + "/" + "users.json", 'utf8', function(err, data){
 	console.log(data);
-	res.send(data); //Assigns the data to res
+	res.send(data); 
     });
 })
 
@@ -17,3 +20,4 @@ var server = app.listen(8080, function(){
     var port = server.address().port
     console.log("REST API demo app listening at http://%s:%s", host, port)
 })
+*/

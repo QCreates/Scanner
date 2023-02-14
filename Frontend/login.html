@@ -29,14 +29,16 @@
       </div>
       <div class="credentialContainer">
 	<h2 class="credentialTitle">Username</h2>
-	<input type="text" class="loginInfo" id="username" onkeyup="Search()" placeholder=" Type your username..."/>
+	<input type="text" class="loginInfo" id="username" placeholder="Username"/>
 	<h2 class="credentialTitle">Password</h2>
-	<input type="text" class="loginInfo" id="password" onkeyup="Search()" placeholder=" Type your password..."/>
-	<a href="login" class="centerButton">Sign In</a>
-
+	<input type="password" class="loginInfo" id="password" placeholder="Password"/>
+	<a href="login" id="loginBtn" class="centerButton">Sign In</a>
+	
       </div>
+      <a href="signup" id="signUpBtn" class="centerButton">Sign Up</a>
     </div>
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
+    <script src="server.js"></script>
   </body>
 </html>
