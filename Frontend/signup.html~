@@ -19,9 +19,7 @@
       <a href="./index.html" class="homelink" id="homePage">Scanner Website</a>
     </div>
     <div class="buttonContainer" id="cont2">
-      <a href="./index.html" class="tablink" id="page1">Home</a>
-      <a href="./construction.html" class="tablink" id="page2">About</a>
-      <a href="./construction.html" class="tablink" id="page3">Usefulness</a>
+      <a href="./login.html" class="tablink" id="page2">Go back to Login</a>
     </div>
     <div class="mainContainer">
       <div class="aboutMe">
@@ -32,10 +30,9 @@
 	<input type="text" class="loginInfo" id="username" placeholder="Username"/>
 	<h2 class="credentialTitle">Password</h2>
 	<input type="password" class="loginInfo" id="password" placeholder="Password"/>
-	<a href="login" id="loginBtn" class="centerButton">Sign In</a>
+	<a href="signup" id="loginBtn" class="centerButton">Sign Up</a>
 	
       </div>
-      <a href="./signup.html" id="signUpBtn" class="centerButton">Sign Up</a>
     </div>
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
