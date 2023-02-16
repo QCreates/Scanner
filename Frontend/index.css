@@ -4,36 +4,70 @@ body{
     margin-right: 0vw;
     margin-left: 0vw;
     margin-top: 10vh;
-    background-color: #f2f3f4;
+    background-color: white;
 }
 
 /* Containers */
 .mainContainer{
-    margin-left: 1vw;
+/*    margin-left: 1vw;
+ */
     position: absolute;
-    width: 98vw;
+    width: 50%;
     height: 89vh;
-    background-color: #bed3b4;
+    background-color: #9dd9f3;
     border-radius: .5vh;
     overflow-y: auto;
 }
-
+.mainContainer2{
+    position: absolute;
+    margin-left: 50%;
+    width: 50%;
+    height: 89vh;
+    background-color: white;
+    border-radius: .5vh;
+    overflow-y: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainContainer3{
+    position: absolute;
+    width: 100%;
+    height: 89vh;
+    background-color: #9dd9f3 ;
+    border-radius: .5vh;
+    overflow-y: auto;
+}
+	      
+img {
+    
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 75%;
+}
 .credentialContainer{
     margin-top: 10vh;
     margin-left: 29vw;
     position: absolute;
     width: 40vw;
     height: 50vh;
-    background-color: #f2f3f4;
+    background-color:  white;
     border-radius: .5vh;
     overflow-y: auto;
     text-align: center;
-} .credentialTitle{
-    margin-bottom: 3vh; 
-} .loginInfo{
+}
+.credentialTitle{
+    margin-bottom: 3vh;
+    text-align: center;
+    
+}
+.loginInfo{
     width: 30.5vw;
     height: 6vh;
-    background-color: #8a8a8a70;
+    background-color: lightgrey;
     border: none;
     border-radius: .5vh;
     overflow-y: none;
@@ -45,58 +79,70 @@ a{
     width: calc(9vw + 2vh);
     height: 5vh;
     border-radius: .5vh;
-    background-color: #abc3cd;
+    background-color: white;
     border: solid;
-    border-color: #a6c3ce;
-} .tablink:hover{
-    background-color: #eddea4;
+    border-color: white;
+}
+.tablink:hover{
+    background-color: #f8a195;
 }
 /* BUTTONS */
 .tablink{
     top: 2vh;
     position: absolute;
-} .homelink{
+}
+.homelink{
     position: absolute;
     top: 2vh;
     left: 1vw;
     width: 18vw;
     padding-left: 2vw;
     border: none;
-} .centerButton{
+}
+.centerButton{
     top: 40vh;
     left: 15vw;
     position: absolute;   
-} #signUpBtn{
+}
+#signUpBtn{
     top: 78vh;
     left: 46vw;
     padding: 0;
     padding-left: 1vw;
     height: 4vh;
     width: 5vw;
-} #page1{
+}
+#page1{
     left: 30vw;
-} #page2{
+}
+#page2{
     left: 46vw;
-} #page3{
+}
+#page3{
     left: 62vw;
-} #login{
+}
+#login{
     right: 1vw;
     background-color: #f8b195;
-} #Login{
+}
+#Login{
     right: 1vw;
     height: 5.6vh;
     color: black;
     background-color: #f8b195;
-} #login:hover{
+}
+#login:hover{
     background-color: #eddea4;
-} #Login:hover{
+}
+#Login:hover{
     background-color: #6c4b7b;
 }
 
 /* TEXT */
 h1{
     text-align: center;
-} p{
+}
+p{
     margin-left: 4vw;
     margin-right: 4vw;
 }
