@@ -28,17 +28,18 @@
 	<h1>Sign In</h1>
       </div>
       <div class="credentialContainer">
-	<h2 class="credentialTitle">Username</h2>
-	<input type="text" class="loginInfo" id="username" placeholder="Username"/>
+	<h2 class="credentialTitle">Email</h2>
+	<input type="email" class="loginInfo" id="email" placeholder="Email" required>
 	<h2 class="credentialTitle">Password</h2>
-	<input type="password" class="loginInfo" id="password" placeholder="Password"/>
-	<a href="login" id="loginBtn" class="centerButton">Sign In</a>
+	<input type="password" class="loginInfo" id="password" placeholder="Password" required>
+	
+	<button href="login" class="centerButton" id="loginButton">Sign In</button>
 	
       </div>
       <a href="./signup.html" id="signUpBtn" class="centerButton">Sign Up</a>
     </div>
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
-    <script src="server.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
