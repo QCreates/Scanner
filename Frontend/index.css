@@ -52,18 +52,12 @@ img {
     margin-top: 10vh;
     margin-left: 29vw;
     position: absolute;
-    width: 40vw;
+    width: 38vw;
     height: 50vh;
     background-color:  white;
     border-radius: .5vh;
     overflow-y: auto;
     text-align: center;
-<<<<<<< HEAD
-} .credentialTitle{
-    margin-bottom: 3vh;
-    text-align: center;
-} .loginInfo{
-=======
 }
 .credentialTitle{
     margin-bottom: 3vh;
@@ -71,8 +65,9 @@ img {
     
 }
 .loginInfo{
->>>>>>> refs/remotes/origin/main
-    width: 30.5vw;
+    margin-left: 0vw;
+    padding-left: 1vw;
+    width: 28.5vw;
     height: 6vh;
     background-color: lightgrey;
     border: none;
@@ -90,13 +85,13 @@ a, button{
     border: solid;
     border-color: white;
 }
-.tablink:hover{
-    background-color: #f8a195;
-}
 /* BUTTONS */
 .tablink{
     top: 2vh;
     position: absolute;
+}
+.tablink:hover{
+    background-color: #f8a195;
 }
 .homelink{
     position: absolute;
@@ -107,20 +102,32 @@ a, button{
     border: none;
 }
 .centerButton{
-    top: 40vh;
+    top: 42vh;
     left: 15vw;
     position: absolute;   
-<<<<<<< HEAD
-} #loginButton{
+}
+#showpswrd{
+    top: 36.5vh;
+    left: 4.1vw;
+    padding-bottom: 1vh;
+    background-color:  #f8a19580;
+} #showpswrd:hover{
+    background-color:  #f8a195;
+    color: white;
+}
+
+#checkbox{
+    position: absolute
+    margin-top: 10vh;
+}
+#loginButton{
     height: 7vh;
-} #signUpBtn{
-=======
 }
 #signUpBtn{
->>>>>>> refs/remotes/origin/main
-    top: 78vh;
+    posistion: absolute;
     left: 46vw;
-    padding: 0;
+    top: 85vh;
+    padding: 0vw;
     padding-left: 1vw;
     height: 4vh;
     width: 5vw;

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
 
-  <body onload="JSON()">
+  <body>
     <div class="buttonContainer" id="cont1">
       <a href="./index.html" class="homelink" id="homePage">Scanner Website</a>
     </div>
@@ -32,14 +32,17 @@
 	<input type="email" class="loginInfo" id="email" placeholder="Email" required>
 	<h2 class="credentialTitle">Password</h2>
 	<input type="password" class="loginInfo" id="password" placeholder="Password" required>
+    	
 	
+	<button href="login" class="centerButton" id="showpswrd" onclick="showPassword()">Show Password</button>
 	<button href="login" class="centerButton" id="loginButton">Sign In</button>
 	
       </div>
-      <a href="./signup.html" id="signUpBtn" class="centerButton">Sign Up</a>
     </div>
+    <a href="./signup.html" class="centerButton" id="signUpBtn">Sign Up</a>
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
-    <script src="app.js"></script>
+    <script src="../Backend/index.js"></script>
+
   </body>
 </html>

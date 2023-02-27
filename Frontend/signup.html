@@ -18,26 +18,21 @@
     <div class="buttonContainer" id="cont1">
       <a href="./index.html" class="homelink" id="homePage">Scanner Website</a>
     </div>
-<<<<<<< HEAD
-    <div class="mainContainer">
-      <form class="aboutMe">
-=======
+
+    
     <div class="mainContainer3">
-      <div class="aboutMe">
->>>>>>> refs/remotes/origin/main
 	<h1>Sign Up</h1>
       </div>
       <div class="credentialContainer">
-	<label class="credentialTitle">Username</label>
-	<input type="text" class="loginInfo" id="username" name="usrName" placeholder="Username"/>
-	<label class="credentialTitle">Password</label>
-	<input type="text" class="loginInfo" id="password" name="password" placeholder="Password (Warning, password will be visible)"/>
+	<h2 class="credentialTitle">Email</h2>
+	<input type="email" class="loginInfo" id="email" placeholder="Email" required>
+	<h2 class="credentialTitle">Password</h2>
+	<input type="password" class="loginInfo" id="password" placeholder="Password" required>
+	<button href="login" class="centerButton" id="showpswrd" onclick="showPassword()">Show Password</button>
 	<a href="signup" id="loginBtn" class="centerButton">Sign Up</a>
-	
-      </form>
     </div>
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
-    <script src="server.js"></script>
+    <script src="../Backend/index.js"></script>
   </body>
 </html>
