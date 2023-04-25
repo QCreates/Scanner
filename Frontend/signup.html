@@ -10,11 +10,11 @@
     <link rel="shortcut icon" href="" type="image/png" sizes="96x96">
 
     <!-- CSS Files -->
-    <link rel="stylesheet" href="./fonts.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./Styles/fonts.css" />
+    <link rel="stylesheet" href="./Styles/index.css" />
   </head>
 
-  <body onload="JSON()">
+  <body>
     <div class="buttonContainer" id="cont1">
       <a href="./index.html" class="homelink" id="homePage">Scanner Website</a>
     </div>
@@ -23,16 +23,20 @@
     <div class="mainContainer3">
 	<h1>Sign Up</h1>
       </div>
-      <div class="credentialContainer">
+      <form class="credentialContainer">
 	<h2 class="credentialTitle">Email</h2>
 	<input type="email" class="loginInfo" id="email" placeholder="Email" required>
+
 	<h2 class="credentialTitle">Password</h2>
 	<input type="password" class="loginInfo" id="password" placeholder="Password" required>
-	<button href="login" class="centerButton" id="showpswrd" onclick="showPassword()">Show Password</button>
-	<a href="signup" id="loginBtn" class="centerButton">Sign Up</a>
-    </div>
+
+	<button class="centerButton" id="showpswrd" onclick="showPassword()">Show Password</button>
+
+	<a id="loginBtn" class="centerButton" onclick="addUser()">Sign Up</a>
+      </form>
+      
     <a href="./login.html" class="tablink" id="Login">Login</a>
 
-    <script src="../Backend/index.js"></script>
+    <script type="module" src="../Backend/index.js"></script>
   </body>
 </html>
